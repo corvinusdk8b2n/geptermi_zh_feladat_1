@@ -9,7 +9,7 @@ import java.util.Random;
 @RestController
 public class Task1Controller
 {
-    @RequestMapping("/")
+    @RequestMapping("/szamol")
     public String veletlen(@RequestParam(value ="number") String numberString)
     {
         double number = Double.parseDouble(numberString);
